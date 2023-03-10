@@ -1,0 +1,10 @@
+
+config server 'server'
+	option enabled '0'
+	option port '30000'
+	option proto 'tcp'
+	option ipv6 '0'
+	option ip_segment '10.10.0.0'
+	option subnet_mask '255.255.255.0'
+	option lzo '1'
+	option ddns 'example.com'
