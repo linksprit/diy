@@ -25,7 +25,7 @@ autocore-x86 automount htop iperf3 rclone socat lm-sensors kmod-tcp-bbr ipv6help
 luci-app-fileassistant luci-app-upnp luci-app-ddns ddns-scripts_aliyun ddns-scripts_dnspod ddns-scripts_cloudflare.com-v4 \
 luci-app-wol luci-app-ttyd luci-app-frpc luci-app-frps luci-app-vlmcsd luci-app-wireguard luci-app-nlbwmon luci-app-wrtbwmon wrtbwmon luci-app-qbittorrent-simple \
 luci-app-timecontrol luci-app-cowbping luci-app-speedlimit luci-app-softethervpn luci-app-tcpdump luci-app-alist luci-app-aria2 luci-app-usb-printer \
-luci-app-passwall naiveproxy luci-app-syncthing hysteria xray-plugin v2ray-geoip v2ray-geosite luci-theme-argon-mod luci-theme-bootstrap-mod
+luci-app-passwall luci-app-syncthing luci-theme-argon-mod luci-theme-bootstrap-mod
 
 $(eval $(call BuildTarget))
 
