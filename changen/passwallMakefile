@@ -95,7 +95,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
 config PACKAGE_$(PKG_NAME)_INCLUDE_ChinaDNS_NG
 	bool "Include ChinaDNS-NG"
 	select PACKAGE_ipset
-	default y
+	default n
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_Haproxy
 	bool "Include Haproxy"
